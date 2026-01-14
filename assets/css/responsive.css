@@ -1,0 +1,55 @@
+@media  (min-width:440px) and (max-width: 768px) {/*smartphones in landscape*/
+    #navigation-list{
+        display: none;
+    }
+    #menu-icon{
+        display: block;
+        padding: 15px;
+    }
+    #menu-icon:hover{
+        color: white;;
+    }
+  
+    
+}
+@media(max-width: 992px){/*tablets*/
+ #navigation-list{
+        display: none;
+    }
+    #menu-icon{
+        display: block;
+        padding: 15px;
+    }
+    #menu-icon:hover{
+        color: white;;
+    }
+    #about-me p{
+        width: 40%;
+    }
+    .content-about p{
+    width: 100%;
+    text-align: center;
+}
+}
+@media (min-width: 1200px){/*desktops*/
+    body{
+        overflow-x: hidden;
+    }
+    #about-me>p{
+        width: 30%;
+    }
+    
+    #main-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  #about-me{
+    width: 70%;
+    text-align: center;
+}
+.content-about p{
+    width: 60%;
+    margin: 0px auto;
+}
+;
+}
