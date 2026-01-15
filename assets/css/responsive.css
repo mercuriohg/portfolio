@@ -1,4 +1,4 @@
-@media  (min-width:440px) and (max-width: 768px) {/*smartphones in landscape*/
+@media  (max-width:440px) and (max-width: 768px) {/*smartphones in landscape*/
     #navigation-list{
         display: none;
     }
@@ -56,4 +56,5 @@
 }
 
 }
+
 
