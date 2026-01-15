@@ -1,4 +1,4 @@
-@media  (max-width:620px) and (max-width: 768px) {/*smartphones in landscape*/
+@media (max-width: 768px) {/*smartphones in landscape*/
     #navigation-list{
         display: none;
     }
@@ -13,11 +13,19 @@
         width: 90%;
     }
   
-    .content-about  p{
-       display: flex;
-       margin: auto;
-       width: 100%;
-    }
+    .content-about p,
+  #about-me p {
+    width: 100%;
+    font-size: 1rem;      
+    line-height: 1.6;
+    text-align: left;
+  }
+  .content-about {
+    padding: 20px;
+  }
+  .projects {
+    width: 100%;
+  }
 }
 
 @media(max-width: 1199px){/*tablets*/
