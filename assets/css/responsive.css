@@ -13,8 +13,7 @@
         width: 90%;
     }
   
-    .content-about p,
-  #about-me p {
+    .content-about p{
     width: 100%;
     font-size: 1rem;      
     line-height: 1.6;
@@ -28,7 +27,7 @@
   }
 }
 
-@media(max-width: 1199px){/*tablets*/
+@media (min-width: 769px) and (max-width: 1199px){/*tablets*/
  #navigation-list{
         display: none;
     }
@@ -42,18 +41,14 @@
     #about-me p{
         width: 40%;
     }
-    .content-about p{
-    width: 100%;
+    .content-about p {
+    width: 80%;
     text-align: center;
-}
+  }
     .projects{
         width: 90%;
     }
-    .content-about  p{
-     display: flex;
-     margin: auto;
-     width: 60%;
-    }
+    
 }
 @media (min-width: 1200px){/*desktops*/
     body{

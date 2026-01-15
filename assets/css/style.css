@@ -58,9 +58,9 @@ ul > li > a:hover {
   padding: 20px;
 }
 .content-about p {
-  display: flex;
-  margin: auto;
-  width: 90%;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
 }
 #main-content {
   display: flex;
