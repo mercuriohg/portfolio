@@ -16,7 +16,26 @@
   #navigation-list {
     display: none;
   }
-
+  #navigation-menu {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+  }
+ #navigation-list.active {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(110, 31, 31);
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  #navigation-menu li{
+    margin-top: 20px;
+    text-align: center;
+  }
   #menu-icon {
     display: block;
     padding: 15px;
@@ -28,7 +47,7 @@
   }
 
   .projects {
-    width: 90%;
+    width: 70%;
   }
 
   .content-about p {
@@ -40,7 +59,7 @@
 /* 
    DESKTOP
 */
-@media (min-width: 1200px) {
+@media (min-width: 1180px) {
   #main-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
