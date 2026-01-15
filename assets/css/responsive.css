@@ -1,4 +1,4 @@
-@media  (max-width:220px) and (max-width: 768px) {/*smartphones in landscape*/
+@media  (max-width:620px) and (max-width: 768px) {/*smartphones in landscape*/
     #navigation-list{
         display: none;
     }
@@ -13,14 +13,14 @@
         width: 90%;
     }
   
-    .content-about > p{
-        display: flex;
-        justify-content:center;
-        text-align:justify;
-        width: 90%;
+    .content-about  p{
+       display: flex;
+       margin: auto;
+       width: 100%;
     }
 }
-@media(max-width: 992px){/*tablets*/
+
+@media(max-width: 1199px){/*tablets*/
  #navigation-list{
         display: none;
     }
@@ -41,7 +41,11 @@
     .projects{
         width: 90%;
     }
-  
+    .content-about  p{
+     display: flex;
+     margin: auto;
+     width: 60%;
+    }
 }
 @media (min-width: 1200px){/*desktops*/
     body{
