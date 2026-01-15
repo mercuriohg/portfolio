@@ -132,3 +132,9 @@ ul > li > a:hover {
   transition: 0.3s ease;
   cursor: pointer;
 }
+/* Footer */
+#main-footer {
+  background-color: var(--corprincipal);
+  text-align: center;
+  padding: 30px;
+}
