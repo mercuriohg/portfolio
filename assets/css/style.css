@@ -28,6 +28,12 @@ body {
   p{
     color: white;
   }
+  h2{
+    color: rgb(255, 255, 255);
+  }
+  h3{
+    color: rgb(196, 196, 196);
+  }
   a{
     background-color: gray;
   }

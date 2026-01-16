@@ -23,6 +23,11 @@
     padding: 20px;
     border-radius: 5px;
   }
+  .escuro{
+    #navigation-list{
+      background-color: rgb(44, 42, 42);
+    }
+  }
   #navigation-menu li{
     margin-top: 20px;
     text-align: center;
@@ -60,6 +65,11 @@
     display: block;
     padding: 15px;
   }
+  .escuro{
+    #navigation-list{
+      background-color: rgb(44, 42, 42);
+    }
+  }
   .container-skills {
     flex-direction: row;
     flex-wrap: wrap;
@@ -94,7 +104,7 @@
   .projects {
     width: 45%;
   }
-
+ 
   .content-about p {
     width: 60%;
     text-align: justify;
