@@ -90,6 +90,18 @@ ul > li > a:hover {
   padding: 20px;
 }
 
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+#container-main-skill {
+  flex: 1;
+}
+
 /* ABOUT */
 .content-about {
   padding: 20px;
@@ -155,10 +167,15 @@ ul > li > a:hover {
 }
 /* Footer */
 #main-footer {
-  text-align: center;
-  padding: 30px;
-}
-
+    display: flex;
+    padding: 30px;
+    align-items: flex-end;
+  }
+  #main-footer p {
+    flex: auto;
+    align-items: end;
+    text-align: center;
+  }
 
 /* My Skills Page */
 #container-main-skill{
