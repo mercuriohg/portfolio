@@ -1,7 +1,9 @@
 const menuIcon = document.getElementById("menu-icon");
 const navList = document.getElementById("navigation-list");
+const themeBtn = document.getElementById("mudartema");
 
 menuIcon.addEventListener("click", toggleMenu);
+themeBtn.addEventListener("click", tema)
 
 function toggleMenu() {
   navList.classList.toggle("active");
@@ -16,3 +18,12 @@ window.addEventListener("resize", () => {
     menuIcon.classList.remove("fa-xmark");
   }
 });
+function tema() {
+  document.body.classList.toggle("escuro");
+
+  if (document.body.classList.contains("escuro")) {
+    themeBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
+  } else {
+    themeBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
+  }
+}
