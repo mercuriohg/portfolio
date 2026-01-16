@@ -7,6 +7,26 @@
     display: block;
     padding: 15px;
   }
+  #navigation-menu {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+  }
+ #navigation-list.active {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(110, 31, 31);
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  #navigation-menu li{
+    margin-top: 20px;
+    text-align: center;
+  }
 }
 
 /*
