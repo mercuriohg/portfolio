@@ -36,12 +36,26 @@
     margin-top: 20px;
     text-align: center;
   }
+    #container-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #redes-sociais{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .socials{
+    margin-top: 40px;
+  
+  }
 }
 
 /*
    TABLET
 */
-@media (min-width: 769px) and (max-width: 1145px) {
+@media (min-width: 769px) and (max-width: 1179px) {
   #navigation-list {
     display: none;
   }
@@ -93,6 +107,26 @@
     width: 80%;
     text-align: center;
   }
+    #container-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+      #container-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #redes-sociais{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  .socials{
+    margin-top: 40px;
+  
+  }
+  
 }
 
 /* 

@@ -36,6 +36,7 @@ body {
   }
   a{
     background-color: gray;
+    color: white;
   }
   header{
     background-color: rgb(12, 9, 9);
@@ -57,7 +58,7 @@ body {
   align-items: center;
 }
 
-menu > ul {
+nav > ul {
   list-style: none;
   display: flex;
   gap: 20px;
@@ -204,4 +205,28 @@ span{
   background-color: rgb(192, 98, 98);
   height: 100%;
   border-radius: 4px;
+}
+#redes-sociais{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.link-sociais{
+  background-color: var(--corfundo);
+  color: rgb(10, 10, 10);
+  padding:20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.link-sociais:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(199, 187, 187, 0.2);
+}
+#container-social{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  
+  align-items: center;
 }
