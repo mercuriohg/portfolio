@@ -222,6 +222,7 @@ span{
 .link-sociais:hover{
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(199, 187, 187, 0.2);
+  background-color: rgb(35, 31, 31);
 }
 #container-social{
   display: flex;
