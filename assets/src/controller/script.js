@@ -3,7 +3,7 @@ const navList = document.getElementById("navigation-list");
 const themeBtn = document.getElementById("mudartema");
 
 menuIcon.addEventListener("click", toggleMenu);
-themeBtn.addEventListener("click", tema)
+themeBtn.addEventListener("click", tema);
 
 function toggleMenu() {
   navList.classList.toggle("active");
@@ -19,8 +19,9 @@ window.addEventListener("resize", () => {
   }
 });
 function tema() {
-  document.body.classList.toggle("escuro");
-
+  const novo = document.body.classList.contains("escuro") ? "claro" : "escuro";
+  document.body.className = novo;
+  localStorage.setItem("tema", novo);
   if (document.body.classList.contains("escuro")) {
     themeBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
   } else {
