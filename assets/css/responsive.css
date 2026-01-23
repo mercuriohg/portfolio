@@ -51,6 +51,9 @@
     width: 100%;
 
   }
+  .container-noticia{
+    overflow-x: auto;
+  }
 }
 
 /*
@@ -127,6 +130,9 @@
     margin-top: 40px;
   
   }
+   .container-noticia{
+    overflow-x: auto;
+  }
   
 }
 
@@ -157,5 +163,9 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
+  }
+   .container-noticia{
+    display: flex;
+    flex-direction: column;
   }
 }

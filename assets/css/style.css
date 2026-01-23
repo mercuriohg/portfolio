@@ -235,3 +235,31 @@ span{
   
   align-items: center;
 }
+.container-noticia{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+#container-edu > h2{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 40px;
+
+}
+#container-edu{
+  margin: auto;
+}
+#main-edu{
+  height: 100vh;
+}
+.noticia{
+  margin: 20px;
+  border-radius: 7px;
+  transition: all 0.3s ease;
+
+}
+.noticia:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(9, 9, 9, 0.2);
+}
