@@ -19,6 +19,7 @@ window.addEventListener("resize", () => {
   }
 });
 function tema() {
+  themeBtn.preventDefault;
   const novo = document.body.classList.contains("escuro") ? "claro" : "escuro";
   document.body.className = novo;
   localStorage.setItem("tema", novo);
@@ -28,3 +29,4 @@ function tema() {
     themeBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
   }
 }
+

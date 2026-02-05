@@ -47,6 +47,10 @@ body {
   .projects{
     background-color: rgb(15, 6, 6);
   }
+  .my-photo{
+    box-shadow: 0 0 10px rgb(131, 130, 130);
+    border: 3px solid rgb(116, 116, 115);
+  }
   color: rgb(226, 222, 218);
 }
 .claro{
@@ -124,7 +128,8 @@ body {
 
 .my-photo {
   border-radius: 50%;
-  border: 3px solid var(--corsecundaria);
+  border: 3px solid rgb(31, 31, 31);
+  box-shadow: 3px 8px 20px rgba(228, 59, 59, 0.3);
 }
 
 /* TECNOLOGIAS */
@@ -263,3 +268,26 @@ span{
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(9, 9, 9, 0.2);
 }
+.contact, .form-text{
+  display: block;
+  margin: auto;
+  padding: 20px 0px;
+}
+.contact{
+  border: 4px solid var(--corsecundaria);
+  padding: 40px;
+  width: 420px;
+  border-radius: 10px;
+}
+.texto-input, .btn-enviar{
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
+.btn-enviar:hover{
+  background-color: var(--corsecundaria);
+  color: white;
+  font-weight: bold;}

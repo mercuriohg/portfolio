@@ -152,9 +152,9 @@
    DESKTOP
 */
 @media (min-width: 1180px) {
-  #main-content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+ 
+  #container-main {
+    display: flex;
   }
 
   .container-skills {
@@ -164,12 +164,16 @@
   }
 
   .projects {
-    width: 45%;
+    width: 40%;
   }
 
   .content-about p {
     width: 60%;
     text-align: justify;
+  }
+  .content-about{
+     margin-left: 200px;
+     width: 400px;
   }
   #container-main-skill {
     display: grid;
