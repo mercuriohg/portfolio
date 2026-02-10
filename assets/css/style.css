@@ -412,6 +412,7 @@ span {
 .btn-enviar:hover {
   background-color: var(--primary);
   color: white;
+
   text-align: center;
 }
 

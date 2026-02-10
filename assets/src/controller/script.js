@@ -5,7 +5,6 @@ const menuIcon = document.getElementById("menu-icon");
 const navList = document.getElementById("navigation-list");
 const mainContent = document.getElementById("main-content");
 const themeBtn = document.getElementById("mudartema");
-
 // ==========================
 // MENU MOBILE
 // ==========================
