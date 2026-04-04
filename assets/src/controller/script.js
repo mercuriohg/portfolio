@@ -1,13 +1,9 @@
-// ==========================
-// ELEMENTOS BASE
-// ==========================
+
 const menuIcon = document.getElementById("menu-icon");
 const navList = document.getElementById("navigation-list");
 const mainContent = document.getElementById("main-content");
 const themeBtn = document.getElementById("mudartema");
-// ==========================
-// MENU MOBILE
-// ==========================
+
 if (menuIcon) {
   menuIcon.addEventListener("click", toggleMenu);
 }
@@ -26,9 +22,6 @@ window.addEventListener("resize", () => {
   }
 });
 
-// ==========================
-// TEMA (CLARO / ESCURO)
-// ==========================
 if (themeBtn) {
   themeBtn.addEventListener("click", alternarTema);
 }
@@ -57,9 +50,6 @@ function atualizarIconeTema() {
     : '<i class="fa-solid fa-moon"></i>';
 }
 
-// ==========================
-// SPA - NAVEGAÇÃO SEM RELOAD
-// ==========================
 function carregarPagina(page) {
   fetch(page)
     .then(res => {
@@ -102,9 +92,7 @@ window.addEventListener("popstate", e => {
   carregarPagina(page);
 });
 
-// ==========================
 // INICIALIZAÇÃO
-// ==========================
 document.addEventListener("DOMContentLoaded", () => {
   aplicarTemaSalvo();
 
